@@ -1,0 +1,12 @@
+const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
+if(!reducedMotion.matches&&'IntersectionObserver' in window){document.documentElement.classList.add('js-motion');const observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}})},{threshold:.08});document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));}
+const tabs=[...document.querySelectorAll('[role=tab]')];
+function selectTab(tab,focus=false){tabs.forEach(t=>{const selected=t===tab;t.setAttribute('aria-selected',String(selected));t.tabIndex=selected?0:-1;document.getElementById(t.getAttribute('aria-controls')).hidden=!selected});if(focus)tab.focus()}
+tabs.forEach((tab,index)=>{tab.addEventListener('click',()=>selectTab(tab));tab.addEventListener('keydown',event=>{let target;if(event.key==='ArrowRight')target=(index+1)%tabs.length;if(event.key==='ArrowLeft')target=(index+tabs.length-1)%tabs.length;if(event.key==='Home')target=0;if(event.key==='End')target=tabs.length-1;if(target!==undefined){event.preventDefault();selectTab(tabs[target],true)}})});
+const photos=[...document.querySelectorAll('[data-photo]')],dialog=document.getElementById('lightbox');let current=0,lastTrigger;
+function renderPhoto(index){current=(index+photos.length)%photos.length;const photo=photos[current];dialog.querySelector('img').src=photo.dataset.photo;dialog.querySelector('img').alt=photo.querySelector('img').alt;dialog.querySelector('p').textContent=photo.dataset.caption;}
+photos.forEach((photo,index)=>photo.addEventListener('click',()=>{lastTrigger=photo;renderPhoto(index);dialog.showModal()}));
+dialog.querySelector('.lightbox-close').addEventListener('click',()=>dialog.close());
+document.getElementById('prev-photo').addEventListener('click',()=>renderPhoto(current-1));document.getElementById('next-photo').addEventListener('click',()=>renderPhoto(current+1));
+dialog.addEventListener('click',event=>{if(event.target===dialog){const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)dialog.close()}});
+dialog.addEventListener('keydown',event=>{if(event.key==='ArrowLeft'){event.preventDefault();renderPhoto(current-1)}if(event.key==='ArrowRight'){event.preventDefault();renderPhoto(current+1)}});dialog.addEventListener('close',()=>lastTrigger?.focus());
