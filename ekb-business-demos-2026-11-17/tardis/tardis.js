@@ -1,1 +1,20 @@
-if(!matchMedia('(prefers-reduced-motion: reduce)').matches&&'IntersectionObserver'in window){document.documentElement.classList.add('motion');const observer=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}}),{threshold:.08});document.querySelectorAll('.reveal').forEach(e=>observer.observe(e));}const dialog=document.querySelector('dialog');document.getElementById('sources').addEventListener('click',()=>dialog.showModal());dialog.querySelector('.close').addEventListener('click',()=>dialog.close());dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close()});
+if (!matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window) {
+  document.documentElement.classList.add('motion');
+  const observer = new IntersectionObserver(
+    (es) =>
+      es.forEach((e) => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          observer.unobserve(e.target);
+        }
+      }),
+    { threshold: 0.08 },
+  );
+  document.querySelectorAll('.reveal').forEach((e) => observer.observe(e));
+}
+const dialog = document.querySelector('dialog');
+document.getElementById('sources').addEventListener('click', () => dialog.showModal());
+dialog.querySelector('.close').addEventListener('click', () => dialog.close());
+dialog.addEventListener('click', (e) => {
+  if (e.target === dialog) dialog.close();
+});
