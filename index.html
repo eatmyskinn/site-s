@@ -187,6 +187,18 @@
         font-size: 11px;
         color: #64705d;
       }
+      .contact-button {
+        display: inline-block;
+        background: #354c29;
+        color: #fff;
+        padding: 14px 20px;
+        border-radius: 6px;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .contact-button:hover { background: #26391d; }
+      header { gap: 16px; flex-wrap: wrap; }
+      nav { flex-wrap: wrap; }
       a:focus-visible {
         outline: 3px solid #587444;
         outline-offset: 6px;
@@ -243,17 +255,18 @@
       <b>eatmyskinn<span style="color: #587444">.</span></b>
       <nav>
         <a href="#work">Работы</a><a href="#about">О проектах</a
-        ><a href="https://github.com/eatmyskinn">GitHub ↗</a>
+        ><a href="https://t.me/undergroundmarketgod">Telegram ↗</a>
       </nav>
     </header>
     <main>
       <section class="intro">
         <span class="label">ВЕБ-ПОРТФОЛИО / 2026</span>
-        <h1>Сайты с характером.<br /><em>Внимание к деталям.</em></h1>
+        <h1>Сайты для<br /><em>местного бизнеса.</em></h1>
         <p>
-          Подборка адаптивных концептов для локального бизнеса. Типографика, выразительные
-          композиции и небольшие интерактивные детали, которые помогают познакомиться с местом.
+          Я Тимур. Создаю сайты для кофеен, мастерских и сервисов: услуги, фотографии,
+          контакты и маршрут на одной странице. Посетитель сможет узнать о вас и связаться с телефона.
         </p>
+        <p><a href="https://t.me/undergroundmarketgod" class="contact-button">Обсудить сайт в Telegram ↗</a></p>
         <div class="meta">
           <span>HTML / CSS / JavaScript</span><span>Адаптивная вёрстка</span
           ><span>Демонстрационные проекты</span>
@@ -262,7 +275,7 @@
       <section id="work">
         <div class="section-top">
           <h2>Избранные работы</h2>
-          <span>09 ПРОЕКТОВ / ОТКРЫТЬ И ПОСМОТРЕТЬ</span>
+          <span>03 ИЗБРАННЫХ / ЕЩЁ 6 ПРИМЕРОВ НИЖЕ</span>
         </div>
         <div class="grid">
           <a
@@ -278,7 +291,7 @@
             </div>
             <h3>Shinka Burnout <span>↗</span></h3>
             <span class="category">Екатеринбург / шиномонтаж</span>
-            <p>Индустриальная палитра, анимация колеса и услуги.</p></a
+            <p>Задача: помочь водителю выбрать услугу и обсудить запись. На странице — виды работ, телефон, ВКонтакте и маршрут.</p></a
           ><a class="card" href="ekb-business-demos-2026-11-17/tardis/" style="--color: #3c395d"
             ><div class="picture">
               <img
@@ -289,7 +302,7 @@
             </div>
             <h3>Тардис <span>↗</span></h3>
             <span class="category">Екатеринбург / кофейня</span>
-            <p>Редакционная типографика и настоящие фотографии кофейни.</p></a
+            <p>Задача: познакомить гостя с кофейней и помочь найти её. Фотографии, информация о месте и переход к меню на карте.</p></a
           ><a
             class="card"
             href="ekb-business-demos-2026-11-17/service-omega/"
@@ -303,8 +316,12 @@
             </div>
             <h3>Сервисный центр <span>↗</span></h3>
             <span class="category">Екатеринбург / ремонт техники</span>
-            <p>Анимация смартфона, виды ремонта и связь в Telegram.</p></a
-          ><a class="card" href="dist/index.html" style="--color: #702735"
+            <p>Задача: помочь посетителю найти нужный ремонт и связаться с мастером. Виды услуг, Telegram и маршрут в 2ГИС.</p></a
+          ></div>
+      </section>
+      <section id="more-work">
+        <div class="section-top"><h2>Другие концепты</h2></div>
+        <div class="grid"><a class="card" href="dist/index.html" style="--color: #702735"
             ><div class="picture">
               <img
                 src="dist/assets/coffee-real.jpg"
@@ -373,6 +390,18 @@
           >
         </div>
       </section>
+      <section id="service" class="about">
+        <h2>Что я могу сделать для вас</h2>
+        <div>
+          <p>Одностраничный сайт под ваш бизнес: дизайн, мобильная версия, услуги,
+          фотографии, контакты, карта и кнопки звонка или сообщения.</p>
+          <p>Сначала обсудим задачу и материалы, затем согласуем состав работ, стоимость
+          и срок. После согласования покажу сайт, внесу оговорённые правки и помогу с публикацией.
+          Домен и хостинг обсуждаются отдельно.</p>
+          <p>Форма с отправкой заявок, онлайн-запись и другие интеграции оцениваются отдельно.</p>
+          <a class="contact-button" href="https://t.me/undergroundmarketgod">Рассказать о задаче ↗</a>
+        </div>
+      </section>
       <section id="about" class="about">
         <h2>Открыто о проектах.</h2>
         <div>
@@ -395,7 +424,7 @@
     </main>
     <footer>
       <span>eatmyskinn / веб-портфолио</span
-      ><a href="https://github.com/eatmyskinn">Связаться через GitHub ↗</a><span>2026</span>
+      ><a href="https://t.me/undergroundmarketgod">Написать Тимуру в Telegram ↗</a><span>2026</span>
     </footer>
   </body>
 </html>
