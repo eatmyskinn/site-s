@@ -1,0 +1,772 @@
+{
+  "de_0": {
+    "lang": "de",
+    "label": "Hausmeisterservice · Hamburg & Niedersachsen",
+    "default": "Hausmeisterservice · Hamburg & Niedersachsen"
+  },
+  "de_1": {
+    "lang": "de",
+    "label": "Ihr Mann für  alle Fälle. ",
+    "default": "Ihr Mann<br>für <em>alle Fälle.</em>"
+  },
+  "de_2": {
+    "lang": "de",
+    "label": "Zusammenbauen, anbringen, reparieren. Wir kümmern uns um die kleinen Aufgab",
+    "default": "Zusammenbauen, anbringen, reparieren. Wir kümmern uns um die kleinen Aufgaben, die Ihr Zuhause besser machen. Schnell, zuverlässig und fair."
+  },
+  "de_3": {
+    "lang": "de",
+    "label": "50 €",
+    "default": "50 €"
+  },
+  "de_4": {
+    "lang": "de",
+    "label": "✓",
+    "default": "✓"
+  },
+  "de_5": {
+    "lang": "de",
+    "label": "✓",
+    "default": "✓"
+  },
+  "de_6": {
+    "lang": "de",
+    "label": "✓",
+    "default": "✓"
+  },
+  "de_7": {
+    "lang": "de",
+    "label": "✓",
+    "default": "✓"
+  },
+  "de_8": {
+    "lang": "de",
+    "label": "Unsere Leistungen",
+    "default": "Unsere Leistungen"
+  },
+  "de_9": {
+    "lang": "de",
+    "label": "Kleine Aufgaben. Große Erleichterung.",
+    "default": "Kleine Aufgaben.<br>Große Erleichterung."
+  },
+  "de_10": {
+    "lang": "de",
+    "label": "Vom neuen Regal bis zur fertigen Küche: Hier finden Sie Hilfe für Ihr Zuhau",
+    "default": "Vom neuen Regal bis zur fertigen Küche: Hier finden Sie Hilfe für Ihr Zuhause."
+  },
+  "de_11": {
+    "lang": "de",
+    "label": "Möbelmontage",
+    "default": "Möbelmontage"
+  },
+  "de_12": {
+    "lang": "de",
+    "label": "Schränke, Betten und Kommoden.",
+    "default": "Schränke, Betten und Kommoden."
+  },
+  "de_13": {
+    "lang": "de",
+    "label": "Küchenmontage",
+    "default": "Küchenmontage"
+  },
+  "de_14": {
+    "lang": "de",
+    "label": "Aufbau und Montage Ihrer Küche.",
+    "default": "Aufbau und Montage Ihrer Küche."
+  },
+  "de_15": {
+    "lang": "de",
+    "label": "Lampen anbringen",
+    "default": "Lampen anbringen"
+  },
+  "de_16": {
+    "lang": "de",
+    "label": "Lampen und Leuchten montieren.",
+    "default": "Lampen und Leuchten montieren."
+  },
+  "de_17": {
+    "lang": "de",
+    "label": "Bilder, Regale & Spiegel",
+    "default": "Bilder, Regale & Spiegel"
+  },
+  "de_18": {
+    "lang": "de",
+    "label": "Sicher und gerade an der Wand.",
+    "default": "Sicher und gerade an der Wand."
+  },
+  "de_19": {
+    "lang": "de",
+    "label": "Gardinenstangen & Rollos",
+    "default": "Gardinenstangen & Rollos"
+  },
+  "de_20": {
+    "lang": "de",
+    "label": "Gardinen und Sichtschutz befestigen.",
+    "default": "Gardinen und Sichtschutz befestigen."
+  },
+  "de_21": {
+    "lang": "de",
+    "label": "TV-Wandmontage",
+    "default": "TV-Wandmontage"
+  },
+  "de_22": {
+    "lang": "de",
+    "label": "Den Fernseher sicher befestigen.",
+    "default": "Den Fernseher sicher befestigen."
+  },
+  "de_23": {
+    "lang": "de",
+    "label": "Waschmaschine anschließen",
+    "default": "Waschmaschine anschließen"
+  },
+  "de_24": {
+    "lang": "de",
+    "label": "Wasch- und Spülmaschinen anschließen.",
+    "default": "Wasch- und Spülmaschinen anschließen."
+  },
+  "de_25": {
+    "lang": "de",
+    "label": "Wasserhahn tauschen",
+    "default": "Wasserhahn tauschen"
+  },
+  "de_26": {
+    "lang": "de",
+    "label": "Armaturen fachgerecht austauschen.",
+    "default": "Armaturen fachgerecht austauschen."
+  },
+  "de_27": {
+    "lang": "de",
+    "label": "Silikonfugen erneuern",
+    "default": "Silikonfugen erneuern"
+  },
+  "de_28": {
+    "lang": "de",
+    "label": "Frische Fugen für Ihr Badezimmer.",
+    "default": "Frische Fugen für Ihr Badezimmer."
+  },
+  "de_29": {
+    "lang": "de",
+    "label": "Türen & Schlösser",
+    "default": "Türen & Schlösser"
+  },
+  "de_30": {
+    "lang": "de",
+    "label": "Türen einstellen, Griffe und Schlösser tauschen.",
+    "default": "Türen einstellen, Griffe und Schlösser tauschen."
+  },
+  "de_31": {
+    "lang": "de",
+    "label": "Kleinreparaturen",
+    "default": "Kleinreparaturen"
+  },
+  "de_32": {
+    "lang": "de",
+    "label": "Kleine Aufgaben rund um Ihr Zuhause.",
+    "default": "Kleine Aufgaben rund um Ihr Zuhause."
+  },
+  "de_33": {
+    "lang": "de",
+    "label": "Richtpreise. Endpreis nach Absprache.",
+    "default": "Richtpreise. Endpreis nach Absprache."
+  },
+  "de_34": {
+    "lang": "de",
+    "label": "Einfach kalkuliert",
+    "default": "Einfach kalkuliert"
+  },
+  "de_35": {
+    "lang": "de",
+    "label": "Gute Arbeit. Faire Preise.",
+    "default": "Gute Arbeit.<br>Faire Preise."
+  },
+  "de_36": {
+    "lang": "de",
+    "label": "Mindestbuchung: 1 Stunde. Den Umfang und die Kosten klären wir vorab gemein",
+    "default": "Mindestbuchung: 1 Stunde. Den Umfang und die Kosten klären wir vorab gemeinsam."
+  },
+  "de_37": {
+    "lang": "de",
+    "label": "20 €",
+    "default": "20 €"
+  },
+  "de_38": {
+    "lang": "de",
+    "label": "20 € + 0,60 € / km",
+    "default": "20 € + 0,60 € / km"
+  },
+  "de_39": {
+    "lang": "de",
+    "label": "+25 %",
+    "default": "+25 %"
+  },
+  "de_40": {
+    "lang": "de",
+    "label": "Separat berechnet",
+    "default": "Separat berechnet"
+  },
+  "de_41": {
+    "lang": "de",
+    "label": "Richtpreise. Endpreis nach Absprache.",
+    "default": "Richtpreise. Endpreis nach Absprache."
+  },
+  "de_42": {
+    "lang": "de",
+    "label": "So funktioniert’s",
+    "default": "So funktioniert’s"
+  },
+  "de_43": {
+    "lang": "de",
+    "label": "In vier Schritten erledigt.",
+    "default": "In vier Schritten erledigt."
+  },
+  "de_44": {
+    "lang": "de",
+    "label": "Kontakt aufnehmen",
+    "default": "Kontakt aufnehmen"
+  },
+  "de_45": {
+    "lang": "de",
+    "label": "Rufen Sie an oder beschreiben Sie kurz Ihre Aufgabe.",
+    "default": "Rufen Sie an oder beschreiben Sie kurz Ihre Aufgabe."
+  },
+  "de_46": {
+    "lang": "de",
+    "label": "Termin vereinbaren",
+    "default": "Termin vereinbaren"
+  },
+  "de_47": {
+    "lang": "de",
+    "label": "Wir besprechen Aufwand, Preis und einen passenden Termin.",
+    "default": "Wir besprechen Aufwand, Preis und einen passenden Termin."
+  },
+  "de_48": {
+    "lang": "de",
+    "label": "Aufgabe erledigen",
+    "default": "Aufgabe erledigen"
+  },
+  "de_49": {
+    "lang": "de",
+    "label": "Der Meister kommt mit eigenem Werkzeug zu Ihnen.",
+    "default": "Der Meister kommt mit eigenem Werkzeug zu Ihnen."
+  },
+  "de_50": {
+    "lang": "de",
+    "label": "Vor Ort bezahlen",
+    "default": "Vor Ort bezahlen"
+  },
+  "de_51": {
+    "lang": "de",
+    "label": "Sie bezahlen nach der erledigten Arbeit.",
+    "default": "Sie bezahlen nach der erledigten Arbeit."
+  },
+  "de_52": {
+    "lang": "de",
+    "label": "Warum Hausmeister Plus?",
+    "default": "Warum Hausmeister Plus?"
+  },
+  "de_53": {
+    "lang": "de",
+    "label": "Ihr Zuhause. In guten Händen.",
+    "default": "Ihr Zuhause.<br>In guten Händen."
+  },
+  "de_54": {
+    "lang": "de",
+    "label": "Schneller Einsatz",
+    "default": "Schneller Einsatz"
+  },
+  "de_55": {
+    "lang": "de",
+    "label": "Wir stimmen einen passenden Termin mit Ihnen ab.",
+    "default": "Wir stimmen einen passenden Termin mit Ihnen ab."
+  },
+  "de_56": {
+    "lang": "de",
+    "label": "Eigenes Werkzeug",
+    "default": "Eigenes Werkzeug"
+  },
+  "de_57": {
+    "lang": "de",
+    "label": "Das passende Werkzeug bringen wir mit.",
+    "default": "Das passende Werkzeug bringen wir mit."
+  },
+  "de_58": {
+    "lang": "de",
+    "label": "Faire Preise",
+    "default": "Faire Preise"
+  },
+  "de_59": {
+    "lang": "de",
+    "label": "Die Kosten besprechen wir vor Beginn der Arbeit.",
+    "default": "Die Kosten besprechen wir vor Beginn der Arbeit."
+  },
+  "de_60": {
+    "lang": "de",
+    "label": "Deutsch & Russisch",
+    "default": "Deutsch & Russisch"
+  },
+  "de_61": {
+    "lang": "de",
+    "label": "Erklären Sie Ihre Aufgabe in der Sprache, die Ihnen liegt.",
+    "default": "Erklären Sie Ihre Aufgabe in der Sprache, die Ihnen liegt."
+  },
+  "de_62": {
+    "lang": "de",
+    "label": "Lassen Sie uns anpacken",
+    "default": "Lassen Sie uns anpacken"
+  },
+  "de_63": {
+    "lang": "de",
+    "label": "Was steht bei Ihnen an?",
+    "default": "Was steht bei<br>Ihnen an?"
+  },
+  "de_64": {
+    "lang": "de",
+    "label": "Beschreiben Sie kurz Ihre Aufgabe. Mit einem Foto können wir den Aufwand no",
+    "default": "Beschreiben Sie kurz Ihre Aufgabe. Mit einem Foto können wir den Aufwand noch besser einschätzen."
+  },
+  "de_65": {
+    "lang": "de",
+    "label": "Für Sie unterwegs in",
+    "default": "Für Sie unterwegs in"
+  },
+  "de_price_0": {
+    "lang": "de",
+    "label": "Preis: Möbelmontage",
+    "default": "ab 50 €"
+  },
+  "de_price_1": {
+    "lang": "de",
+    "label": "Preis: Küchenmontage",
+    "default": "Auf Anfrage"
+  },
+  "de_price_2": {
+    "lang": "de",
+    "label": "Preis: Lampen anbringen",
+    "default": "ab 35 € / Stk."
+  },
+  "de_price_3": {
+    "lang": "de",
+    "label": "Preis: Bilder, Regale & Spiegel",
+    "default": "ab 30 €"
+  },
+  "de_price_4": {
+    "lang": "de",
+    "label": "Preis: Gardinenstangen & Rollos",
+    "default": "ab 35 €"
+  },
+  "de_price_5": {
+    "lang": "de",
+    "label": "Preis: TV-Wandmontage",
+    "default": "ab 60 €"
+  },
+  "de_price_6": {
+    "lang": "de",
+    "label": "Preis: Waschmaschine anschließen",
+    "default": "ab 50 €"
+  },
+  "de_price_7": {
+    "lang": "de",
+    "label": "Preis: Wasserhahn tauschen",
+    "default": "ab 55 €"
+  },
+  "de_price_8": {
+    "lang": "de",
+    "label": "Preis: Silikonfugen erneuern",
+    "default": "ab 60 €"
+  },
+  "de_price_9": {
+    "lang": "de",
+    "label": "Preis: Türen & Schlösser",
+    "default": "ab 40 €"
+  },
+  "de_price_10": {
+    "lang": "de",
+    "label": "Preis: Kleinreparaturen",
+    "default": "50 € / Std."
+  },
+  "ru_0": {
+    "lang": "ru",
+    "label": "Мастер на час · Гамбург и Нижняя Саксония",
+    "default": "Мастер на час · Гамбург и Нижняя Саксония"
+  },
+  "ru_1": {
+    "lang": "ru",
+    "label": "Ваш мастер  на все руки. ",
+    "default": "Ваш мастер<br><em>на все руки.</em>"
+  },
+  "ru_2": {
+    "lang": "ru",
+    "label": "Собрать, повесить, починить. Поможем с небольшими задачами, которые делают ",
+    "default": "Собрать, повесить, починить. Поможем с небольшими задачами, которые делают ваш дом уютнее. Быстро, надёжно и по честной цене."
+  },
+  "ru_3": {
+    "lang": "ru",
+    "label": "50 €",
+    "default": "50 €"
+  },
+  "ru_4": {
+    "lang": "ru",
+    "label": "✓",
+    "default": "✓"
+  },
+  "ru_5": {
+    "lang": "ru",
+    "label": "✓",
+    "default": "✓"
+  },
+  "ru_6": {
+    "lang": "ru",
+    "label": "✓",
+    "default": "✓"
+  },
+  "ru_7": {
+    "lang": "ru",
+    "label": "✓",
+    "default": "✓"
+  },
+  "ru_8": {
+    "lang": "ru",
+    "label": "Наши услуги",
+    "default": "Наши услуги"
+  },
+  "ru_9": {
+    "lang": "ru",
+    "label": "Меньше домашних забот. Больше свободного времени.",
+    "default": "Меньше домашних забот.<br>Больше свободного времени."
+  },
+  "ru_10": {
+    "lang": "ru",
+    "label": "От новой полки до установки кухни — поможем с делами по дому.",
+    "default": "От новой полки до установки кухни — поможем с делами по дому."
+  },
+  "ru_11": {
+    "lang": "ru",
+    "label": "Сборка мебели",
+    "default": "Сборка мебели"
+  },
+  "ru_12": {
+    "lang": "ru",
+    "label": "Шкафы, кровати и комоды.",
+    "default": "Шкафы, кровати и комоды."
+  },
+  "ru_13": {
+    "lang": "ru",
+    "label": "Установка кухни",
+    "default": "Установка кухни"
+  },
+  "ru_14": {
+    "lang": "ru",
+    "label": "Сборка и установка вашей кухни.",
+    "default": "Сборка и установка вашей кухни."
+  },
+  "ru_15": {
+    "lang": "ru",
+    "label": "Установка светильников",
+    "default": "Установка светильников"
+  },
+  "ru_16": {
+    "lang": "ru",
+    "label": "Монтаж люстр и светильников.",
+    "default": "Монтаж люстр и светильников."
+  },
+  "ru_17": {
+    "lang": "ru",
+    "label": "Картины, полки, зеркала",
+    "default": "Картины, полки, зеркала"
+  },
+  "ru_18": {
+    "lang": "ru",
+    "label": "Надёжное крепление к стене.",
+    "default": "Надёжное крепление к стене."
+  },
+  "ru_19": {
+    "lang": "ru",
+    "label": "Карнизы и жалюзи",
+    "default": "Карнизы и жалюзи"
+  },
+  "ru_20": {
+    "lang": "ru",
+    "label": "Установка карнизов, штор и жалюзи.",
+    "default": "Установка карнизов, штор и жалюзи."
+  },
+  "ru_21": {
+    "lang": "ru",
+    "label": "Телевизор на стену",
+    "default": "Телевизор на стену"
+  },
+  "ru_22": {
+    "lang": "ru",
+    "label": "Надёжное настенное крепление.",
+    "default": "Надёжное настенное крепление."
+  },
+  "ru_23": {
+    "lang": "ru",
+    "label": "Подключение техники",
+    "default": "Подключение техники"
+  },
+  "ru_24": {
+    "lang": "ru",
+    "label": "Стиральные и посудомоечные машины.",
+    "default": "Стиральные и посудомоечные машины."
+  },
+  "ru_25": {
+    "lang": "ru",
+    "label": "Замена смесителя",
+    "default": "Замена смесителя"
+  },
+  "ru_26": {
+    "lang": "ru",
+    "label": "Замена смесителей в ванной и кухне.",
+    "default": "Замена смесителей в ванной и кухне."
+  },
+  "ru_27": {
+    "lang": "ru",
+    "label": "Обновление силикона",
+    "default": "Обновление силикона"
+  },
+  "ru_28": {
+    "lang": "ru",
+    "label": "Обновление силиконовых швов в ванной.",
+    "default": "Обновление силиконовых швов в ванной."
+  },
+  "ru_29": {
+    "lang": "ru",
+    "label": "Двери и замки",
+    "default": "Двери и замки"
+  },
+  "ru_30": {
+    "lang": "ru",
+    "label": "Регулировка дверей, замена ручек и замков.",
+    "default": "Регулировка дверей, замена ручек и замков."
+  },
+  "ru_31": {
+    "lang": "ru",
+    "label": "Мелкий ремонт",
+    "default": "Мелкий ремонт"
+  },
+  "ru_32": {
+    "lang": "ru",
+    "label": "Небольшие ремонтные работы по дому.",
+    "default": "Небольшие ремонтные работы по дому."
+  },
+  "ru_33": {
+    "lang": "ru",
+    "label": "Ориентировочные цены, точная стоимость — после согласования.",
+    "default": "Ориентировочные цены, точная стоимость — после согласования."
+  },
+  "ru_34": {
+    "lang": "ru",
+    "label": "Понятная стоимость",
+    "default": "Понятная стоимость"
+  },
+  "ru_35": {
+    "lang": "ru",
+    "label": "Хорошая работа. Честная цена.",
+    "default": "Хорошая работа.<br>Честная цена."
+  },
+  "ru_36": {
+    "lang": "ru",
+    "label": "Минимальный заказ — 1 час. Объём и стоимость работ обсудим заранее.",
+    "default": "Минимальный заказ — 1 час. Объём и стоимость работ обсудим заранее."
+  },
+  "ru_37": {
+    "lang": "ru",
+    "label": "20 €",
+    "default": "20 €"
+  },
+  "ru_38": {
+    "lang": "ru",
+    "label": "20 € + 0,60 € / km",
+    "default": "20 € + 0,60 € / km"
+  },
+  "ru_39": {
+    "lang": "ru",
+    "label": "+25 %",
+    "default": "+25 %"
+  },
+  "ru_40": {
+    "lang": "ru",
+    "label": "Оплачиваются отдельно",
+    "default": "Оплачиваются отдельно"
+  },
+  "ru_41": {
+    "lang": "ru",
+    "label": "Ориентировочные цены, точная стоимость — после согласования.",
+    "default": "Ориентировочные цены, точная стоимость — после согласования."
+  },
+  "ru_42": {
+    "lang": "ru",
+    "label": "Как это работает",
+    "default": "Как это работает"
+  },
+  "ru_43": {
+    "lang": "ru",
+    "label": "Четыре шага — и готово.",
+    "default": "Четыре шага — и готово."
+  },
+  "ru_44": {
+    "lang": "ru",
+    "label": "Напишите нам",
+    "default": "Напишите нам"
+  },
+  "ru_45": {
+    "lang": "ru",
+    "label": "Позвоните или коротко опишите задачу.",
+    "default": "Позвоните или коротко опишите задачу."
+  },
+  "ru_46": {
+    "lang": "ru",
+    "label": "Выберем время",
+    "default": "Выберем время"
+  },
+  "ru_47": {
+    "lang": "ru",
+    "label": "Обсудим работу, стоимость и удобное время.",
+    "default": "Обсудим работу, стоимость и удобное время."
+  },
+  "ru_48": {
+    "lang": "ru",
+    "label": "Мастер приедет",
+    "default": "Мастер приедет"
+  },
+  "ru_49": {
+    "lang": "ru",
+    "label": "Мастер приедет со своим инструментом.",
+    "default": "Мастер приедет со своим инструментом."
+  },
+  "ru_50": {
+    "lang": "ru",
+    "label": "Оплата на месте",
+    "default": "Оплата на месте"
+  },
+  "ru_51": {
+    "lang": "ru",
+    "label": "Вы оплачиваете выполненную работу.",
+    "default": "Вы оплачиваете выполненную работу."
+  },
+  "ru_52": {
+    "lang": "ru",
+    "label": "Почему Hausmeister Plus?",
+    "default": "Почему Hausmeister Plus?"
+  },
+  "ru_53": {
+    "lang": "ru",
+    "label": "Ваш дом. В надёжных руках.",
+    "default": "Ваш дом.<br>В надёжных руках."
+  },
+  "ru_54": {
+    "lang": "ru",
+    "label": "Быстрый выезд",
+    "default": "Быстрый выезд"
+  },
+  "ru_55": {
+    "lang": "ru",
+    "label": "Согласуем с вами удобное время приезда.",
+    "default": "Согласуем с вами удобное время приезда."
+  },
+  "ru_56": {
+    "lang": "ru",
+    "label": "Свой инструмент",
+    "default": "Свой инструмент"
+  },
+  "ru_57": {
+    "lang": "ru",
+    "label": "Всё необходимое для работы привезём с собой.",
+    "default": "Всё необходимое для работы привезём с собой."
+  },
+  "ru_58": {
+    "lang": "ru",
+    "label": "Честные цены",
+    "default": "Честные цены"
+  },
+  "ru_59": {
+    "lang": "ru",
+    "label": "Согласуем стоимость до начала работы.",
+    "default": "Согласуем стоимость до начала работы."
+  },
+  "ru_60": {
+    "lang": "ru",
+    "label": "Говорим на вашем языке",
+    "default": "Говорим на вашем языке"
+  },
+  "ru_61": {
+    "lang": "ru",
+    "label": "Общаемся по-немецки и по-русски.",
+    "default": "Общаемся по-немецки и по-русски."
+  },
+  "ru_62": {
+    "lang": "ru",
+    "label": "Давайте поможем",
+    "default": "Давайте поможем"
+  },
+  "ru_63": {
+    "lang": "ru",
+    "label": "Что нужно сделать у вас?",
+    "default": "Что нужно<br>сделать у вас?"
+  },
+  "ru_64": {
+    "lang": "ru",
+    "label": "Коротко опишите задачу. Фото поможет нам точнее оценить объём работы.",
+    "default": "Коротко опишите задачу. Фото поможет нам точнее оценить объём работы."
+  },
+  "ru_65": {
+    "lang": "ru",
+    "label": "Работаем в регионе",
+    "default": "Работаем в регионе"
+  },
+  "ru_price_0": {
+    "lang": "ru",
+    "label": "Цена: Сборка мебели",
+    "default": "от 50 €"
+  },
+  "ru_price_1": {
+    "lang": "ru",
+    "label": "Цена: Установка кухни",
+    "default": "По запросу"
+  },
+  "ru_price_2": {
+    "lang": "ru",
+    "label": "Цена: Установка светильников",
+    "default": "от 35 € / шт."
+  },
+  "ru_price_3": {
+    "lang": "ru",
+    "label": "Цена: Картины, полки, зеркала",
+    "default": "от 30 €"
+  },
+  "ru_price_4": {
+    "lang": "ru",
+    "label": "Цена: Карнизы и жалюзи",
+    "default": "от 35 €"
+  },
+  "ru_price_5": {
+    "lang": "ru",
+    "label": "Цена: Телевизор на стену",
+    "default": "от 60 €"
+  },
+  "ru_price_6": {
+    "lang": "ru",
+    "label": "Цена: Подключение техники",
+    "default": "от 50 €"
+  },
+  "ru_price_7": {
+    "lang": "ru",
+    "label": "Цена: Замена смесителя",
+    "default": "от 55 €"
+  },
+  "ru_price_8": {
+    "lang": "ru",
+    "label": "Цена: Обновление силикона",
+    "default": "от 60 €"
+  },
+  "ru_price_9": {
+    "lang": "ru",
+    "label": "Цена: Двери и замки",
+    "default": "от 40 €"
+  },
+  "ru_price_10": {
+    "lang": "ru",
+    "label": "Цена: Мелкий ремонт",
+    "default": "50 € / час"
+  }
+}
