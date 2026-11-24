@@ -1,0 +1,7 @@
+{% extends "bookings/base.html" %}
+{% block title %}Новая заявка{% endblock %}
+{% block content %}
+<h1>Записаться на обслуживание</h1>
+<p>Указанное время — пожелание. Дождитесь подтверждения в списке заявок.</p>
+<form class="fields" method="post">{% csrf_token %}{{ form.as_p }}<button class="button">Отправить заявку</button></form>
+{% endblock %}
