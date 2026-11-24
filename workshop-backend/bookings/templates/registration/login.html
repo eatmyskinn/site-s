@@ -1,0 +1,7 @@
+{% extends "bookings/base.html" %}
+{% block title %}Вход{% endblock %}
+{% block content %}
+<h1>Войти в мастерскую</h1>
+<form class="fields" method="post">{% csrf_token %}{{ form.as_p }}
+<input type="hidden" name="next" value="{{ next }}"><button class="button">Войти</button></form>
+{% endblock %}

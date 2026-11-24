@@ -6,6 +6,10 @@ HTML · CSS · JavaScript · WordPress · PHP · Адаптивная вёрст
 
 [Главная страница](index.html)
 
+## Backend
+
+[Запись в автомастерскую — Django / REST API](workshop-backend/README.md). Учебный проект: заявки, права доступа, PostgreSQL, тесты и CI. Запускается отдельно от статического портфолио.
+
 ## Проекты
 
 | Проект | Город | Код |

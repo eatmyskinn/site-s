@@ -1,0 +1,25 @@
+{% load static %}
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Запись в мастерскую{% endblock %}</title>
+  <link rel="stylesheet" href="{% static 'bookings/style.css' %}">
+</head>
+<body>
+<header><a href="{% url 'home' %}">МАСТЕРСКАЯ / ЗАПИСЬ</a><nav>
+{% if user.is_authenticated %}
+<span>{{ user.username }}</span>
+<form action="{% url 'logout' %}" method="post">{% csrf_token %}<button>Выйти</button></form>
+{% else %}<a href="{% url 'login' %}">Войти</a>{% endif %}
+</nav></header>
+<main>
+<p class="eyebrow">УЧЕБНЫЙ ПРОЕКТ · DJANGO / REST API</p>
+{% for message in messages %}<p role="status" class="message">{{ message }}</p>{% endfor %}
+{% block content %}{% endblock %}
+</main>
+<footer>Демонстрационная мастерская. Заявки не передаются реальному предприятию.<br>
+Время визита требует подтверждения администратором. Часовой пояс: Екатеринбург (UTC+5).</footer>
+</body>
+</html>

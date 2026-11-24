@@ -1,0 +1,25 @@
+{% extends "bookings/base.html" %}
+{% block content %}
+<h1>Колёсам — внимание.<br>Вам — удобная запись.</h1>
+<p>Выберите услугу и предложите время. Администратор проверит заявку и подтвердит визит.</p>
+<a class="button" href="{% url 'create-booking' %}">Оставить заявку ↗</a>
+<section><h2>Услуги</h2><div class="grid">
+{% for service in services %}
+<article><h3>{{ service.name }}</h3><p>от {{ service.price }} ₽</p></article>
+{% empty %}<p>Услуги пока не добавлены. Запустите seed_services.</p>{% endfor %}
+</div></section>
+{% if user.is_authenticated %}
+<section><h2>Мои заявки</h2>
+{% for booking in bookings %}
+<article class="booking">
+<h3>{{ booking.service.name }}</h3>
+<p>{{ booking.requested_at|date:"d.m.Y H:i" }} · {{ booking.get_status_display }}</p>
+{% if booking.comment %}<p>{{ booking.comment }}</p>{% endif %}
+{% if booking.status != "cancelled" %}
+<form action="{% url 'cancel-booking' booking.pk %}" method="post">{% csrf_token %}<button>Отменить заявку</button></form>
+{% endif %}
+</article>
+{% empty %}<p>Здесь появятся ваши заявки.</p>{% endfor %}
+</section>
+{% else %}<p>Для записи нужен аккаунт. В локальной демоверсии его создают через manage.py createsuperuser.</p>{% endif %}
+{% endblock %}
